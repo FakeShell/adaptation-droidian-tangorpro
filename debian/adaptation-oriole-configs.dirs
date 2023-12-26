@@ -1,0 +1,6 @@
+/etc/systemd/system/android-mount.service.d
+/etc/udev/rules.d
+/usr/lib/droid-vendor-overlay
+/usr/lib/droidian/device
+/usr/lib/adaptation-droidian-oriole
+/usr/bin

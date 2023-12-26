@@ -1,0 +1,22 @@
+Source: adaptation-droidian-oriole
+Maintainer: Bardia Moshiri <fakeshell@bardia.tech>
+Section: metapackages
+Priority: optional
+Build-Depends: debhelper (>= 13)
+Standards-Version: 4.5.0.3
+Vcs-Browser: https://github.com/droidian-devices/adaptation-droidian-oriole
+Vcs-Git: https://github.com/droidian-devices/adaptation-droidian-oriole.git
+
+Package: adaptation-droidian-oriole
+Architecture: arm64
+Depends: ${misc:Depends},
+         adaptation-hybris-api32-phone,
+         adaptation-oriole-configs,         
+         droidian-camera,
+Description: adaptation-droidian-oriole - meta
+ Pixel 6 api32 adaptation metapackage
+
+Package: adaptation-oriole-configs
+Architecture: arm64
+Depends: ${misc:Depends},
+Description: Pixel 6's specific adaptation configs
