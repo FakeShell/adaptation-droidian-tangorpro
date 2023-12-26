@@ -1,1 +1,2 @@
 /dev/null /etc/systemd/system/droidian-fpd.service
+/dev/null /etc/systemd/user/mtp-server.service
