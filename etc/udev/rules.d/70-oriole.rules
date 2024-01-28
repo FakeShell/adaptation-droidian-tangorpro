@@ -157,3 +157,4 @@ ACTION=="add", KERNEL=="dma_heap/aaudio_playback_heap", OWNER="system", GROUP="a
 ACTION=="add", KERNEL=="dma_heap/aaudio_capture_heap", OWNER="system", GROUP="audio", MODE="0444"
 ACTION=="add", KERNEL=="logbuffer_pca9468_tcpm", OWNER="system", GROUP="system", MODE="0600"
 ACTION=="add", RUN+="/bin/sh -c 'chown droidian:droidian /sys/class/backlight/panel0-backlight/*'"
+ACTION=="add", KERNEL=="rfkill", OWNER="droidian", GROUP="droidian", MODE="0666"
