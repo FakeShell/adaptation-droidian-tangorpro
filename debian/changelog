@@ -1,0 +1,9 @@
+adaptation-droidian-oriole (0.0.0+git20240128120035.064c83c.release) trixie; urgency=medium
+
+  * initial commit
+  * debian: mask mtp-server for now
+  * use dummy bt board address and wait for bcmbt
+  * implement a hack for power button
+
+ -- Bardia Moshiri <fakeshell@bardia.tech>  Sun, 28 Jan 2024 12:00:35 -0500
+
