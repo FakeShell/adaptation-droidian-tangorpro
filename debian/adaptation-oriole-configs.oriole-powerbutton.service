@@ -1,0 +1,8 @@
+[Unit]
+Description=oriole power button hack
+After=sm.puri.Phosh.service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/oriole-powerbutton
+Restart=always

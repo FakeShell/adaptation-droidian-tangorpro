@@ -1,2 +1,3 @@
 /dev/null /etc/systemd/system/droidian-fpd.service
 /dev/null /etc/systemd/user/mtp-server.service
+/usr/lib/systemd/user/oriole-powerbutton.service /usr/lib/systemd/user/gnome-session.target.wants/oriole-powerbutton.service
