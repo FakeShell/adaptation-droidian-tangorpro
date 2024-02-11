@@ -1,0 +1,11 @@
+[Unit]
+Description=start android services (hack)
+Before=phosh.service
+After=lxc@android.service
+
+[Service]
+Type=oneshot
+ExecStart=-/usr/bin/android_services.sh
+
+[Install]
+WantedBy=multi-user.target
