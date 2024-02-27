@@ -9,7 +9,7 @@
 #include <fcntl.h>
 #include <batman/wlrdisplay.h>
 
-#define DEVICE_FILE "/dev/input/event0"
+#define DEVICE_FILE "/dev/input/event1"
 
 int wlrdisplay_status() {
     int result = wlrdisplay(0, NULL);

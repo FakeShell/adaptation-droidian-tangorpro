@@ -4,11 +4,11 @@
 	dh $@
 
 override_dh_auto_build:
-	gcc src/powerbutton.c -lbatman-wrappers -o usr/bin/oriole-powerbutton
+	gcc src/powerbutton.c -lbatman-wrappers -o usr/bin/tangorpro-powerbutton
 
 override_dh_auto_install:
 	dh_auto_install
-	install -D -m 0644 debian/adaptation-oriole-configs.oriole-powerbutton.service debian/adaptation-oriole-configs/usr/lib/systemd/user/oriole-powerbutton.service
+	install -D -m 0644 debian/adaptation-tangorpro-configs.tangorpro-powerbutton.service debian/adaptation-oriole-configs/usr/lib/systemd/user/tangorpro-powerbutton.service
 
 override_dh_installsystemd:
-	dh_installsystemd -padaptation-oriole-configs --name=android-services android-services.service --no-start
+	dh_installsystemd -padaptation-tangorpro-configs --name=android-services android-services.service --no-start

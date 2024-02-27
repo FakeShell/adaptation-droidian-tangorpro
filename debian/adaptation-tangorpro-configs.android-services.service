@@ -5,7 +5,7 @@ After=lxc@android.service
 
 [Service]
 Type=oneshot
-ExecStart=-/usr/bin/android_services.sh
+ExecStart=-/usr/bin/android-services.sh
 
 [Install]
 WantedBy=multi-user.target

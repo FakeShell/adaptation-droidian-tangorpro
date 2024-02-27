@@ -1,0 +1,8 @@
+[Unit]
+Description=tangorpro power button hack
+After=sm.puri.Phosh.service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/tangorpro-powerbutton
+Restart=always

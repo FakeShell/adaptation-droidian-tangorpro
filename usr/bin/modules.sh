@@ -1,26 +1,61 @@
 #!/bin/bash
 
 modules=(
+crct10dif_common.ko
+crct10dif_generic.ko
 pinctrl-slg51000.ko
+pinctrl-slg51002.ko
+vh_mm.ko
+pixel_em.ko
+bcm_dbg.ko
+pixel_stat_sysfs.ko
+pixel_stat_mm.ko
 slg51000-regulator.ko
+slg51002-regulator.ko
+null_blk.ko
+sbb-mux.ko
 slg51000-core.ko
+slg51002-core.ko
+usb_f_etr_miu.ko
+usbc_cooling_dev.ko
 stmvl53l1.ko
-pktgen.ko
-cfg80211.ko
-mac80211.ko
-bcmdhd43752.ko
-bcmdhd4389.ko
-drv2624.ko
-ftm5.ko
-haptics-cs40l2x.ko
+goodixfp.ko
+gpu_cooling.ko
+arm_dsu_pmu.ko
+pps_core.ko
+coresight.ko
+coresight-tmc.ko
+coresight-funnel.ko
+coresight-replicator.ko
+coresight-etm4x.ko
+crc-t10dif.ko
+audiometrics.ko
+bigocean.ko
+fpc1020_platform_tee.ko
+goog_touch_interface.ko
+google_dual_batt_gauge.ko
+gxp.ko
 lwis.ko
-sec_touch.ko
-snd_soc_cs40l2x.ko
+mali_kbase.ko
+mali_pixel.ko
+max77729_charger.ko
+mcps802154_region_pctt.ko
+nvt_touch.ko
+overheat_mitigation.ko
+panel-boe-nt37290.ko
+panel-samsung-s6e3fc3-p10.ko
+panel-samsung-s6e3fc3.ko
+panel-samsung-s6e3hc2.ko
+panel-samsung-s6e3hc3-c10.ko
+panel-samsung-s6e3hc3.ko
+panel-samsung-s6e3hc4.ko
+panel-samsung-sofef01.ko
+snd-soc-cs35l41-i2c.ko
+snd-soc-cs35l45-i2c.ko
+synadhd.ko
 )
 
 for name in "${modules[@]}"; do
     cd /vendor_dlkm/lib/modules
     insmod "$name"
 done
-
-exit 0

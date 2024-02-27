@@ -1,6 +1,8 @@
 /etc/systemd/system/android-mount.service.d
+/etc/systemd/system/bluebinder.service.d
+/etc/systemd/system/droidian-fpd.service.d
 /etc/udev/rules.d
 /usr/lib/droid-vendor-overlay
 /usr/lib/droidian/device
-/usr/lib/adaptation-droidian-oriole
+/usr/lib/adaptation-droidian-tangorpro
 /usr/bin

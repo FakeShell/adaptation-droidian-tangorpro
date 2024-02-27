@@ -1,5 +1,0 @@
-/dev/null /etc/systemd/system/droidian-fpd.service
-/dev/null /etc/systemd/user/mtp-server.service
-/usr/lib/systemd/user/oriole-powerbutton.service /usr/lib/systemd/user/gnome-session.target.wants/oriole-powerbutton.service
-/vendor/lib64/soundfx/liboffloadeffect.so /usr/lib/droid-vendor-overlay/liboffloadeffect.so
-/vendor/lib/soundfx/liboffloadeffect.so /usr/lib/droid-vendor-overlay/lib/liboffloadeffect.so

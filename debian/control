@@ -1,24 +1,24 @@
-Source: adaptation-droidian-oriole
+Source: adaptation-droidian-tangorpro
 Maintainer: Bardia Moshiri <fakeshell@bardia.tech>
 Section: metapackages
 Priority: optional
 Build-Depends: debhelper (>= 13), gcc, batman-dev
 Standards-Version: 4.5.0.3
-Vcs-Browser: https://github.com/droidian-devices/adaptation-droidian-oriole
-Vcs-Git: https://github.com/droidian-devices/adaptation-droidian-oriole.git
+Vcs-Browser: https://github.com/droidian-devices/adaptation-droidian-tangorpro
+Vcs-Git: https://github.com/droidian-devices/adaptation-droidian-tangorpro.git
 
-Package: adaptation-droidian-oriole
+Package: adaptation-droidian-tangorpro
 Architecture: arm64
 Depends: ${misc:Depends},
-         adaptation-hybris-api32-phone,
-         adaptation-oriole-configs,         
+         adaptation-hybris-api33-phone,
+         adaptation-tangorpro-configs,
          droidian-camera,
          wlr-randr,
          libbatman-wrappers,
-Description: adaptation-droidian-oriole - meta
- Pixel 6 api32 adaptation metapackage
+Description: adaptation-droidian-tangorpro - meta
+ Pixel Tab api33 adaptation metapackage
 
-Package: adaptation-oriole-configs
+Package: adaptation-tangorpro-configs
 Architecture: arm64
 Depends: ${misc:Depends},
-Description: Pixel 6's specific adaptation configs
+Description: Pixel Tabs's specific adaptation configs

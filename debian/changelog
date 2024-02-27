@@ -1,9 +1,17 @@
-adaptation-droidian-oriole (0.0.0+git20240128120035.064c83c.release) trixie; urgency=medium
+adaptation-droidian-tangorpro (0.0.0+git20240227162729.2fe31b7.release) trixie; urgency=medium
 
   * initial commit
   * debian: mask mtp-server for now
   * use dummy bt board address and wait for bcmbt
   * implement a hack for power button
+  * debian: add a changelog
+  * debian: add links for liboffloadeffect
+  * vendor-overlay: redo audio policy configuration
+  * udev: add a rule for rfkill
+  * droidian: add phosh cutout file
+  * add a hack to start android services temporarily
+  * vendor-overlay: make audio policy configuration mode complete and wire up microphone
+  * treewide: adapt to tangorpro
 
- -- Bardia Moshiri <fakeshell@bardia.tech>  Sun, 28 Jan 2024 12:00:35 -0500
+ -- Bardia Moshiri <fakeshell@bardia.tech>  Tue, 27 Feb 2024 16:27:29 -0500
 
