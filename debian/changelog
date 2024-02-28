@@ -1,4 +1,4 @@
-adaptation-droidian-tangorpro (0.0.0+git20240227162729.2fe31b7.release) trixie; urgency=medium
+adaptation-droidian-tangorpro (0.0.0+git20240228114750.f624028.release) trixie; urgency=medium
 
   * initial commit
   * debian: mask mtp-server for now
@@ -12,6 +12,9 @@ adaptation-droidian-tangorpro (0.0.0+git20240227162729.2fe31b7.release) trixie; 
   * add a hack to start android services temporarily
   * vendor-overlay: make audio policy configuration mode complete and wire up microphone
   * treewide: adapt to tangorpro
+  * systemd: rename droidian-fpd-client to droidian-fpd
+  * systemd: allow phosh to start without android-service@hwcomposer
+  * debian/rules: rename from oriole to tangorpro
 
- -- Bardia Moshiri <fakeshell@bardia.tech>  Tue, 27 Feb 2024 16:27:29 -0500
+ -- Bardia Moshiri <fakeshell@bardia.tech>  Wed, 28 Feb 2024 11:47:50 -0500
 
