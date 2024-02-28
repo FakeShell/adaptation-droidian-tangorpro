@@ -8,7 +8,7 @@ override_dh_auto_build:
 
 override_dh_auto_install:
 	dh_auto_install
-	install -D -m 0644 debian/adaptation-tangorpro-configs.tangorpro-powerbutton.service debian/adaptation-oriole-configs/usr/lib/systemd/user/tangorpro-powerbutton.service
+	install -D -m 0644 debian/adaptation-tangorpro-configs.tangorpro-powerbutton.service debian/adaptation-tangorpro-configs/usr/lib/systemd/user/tangorpro-powerbutton.service
 
 override_dh_installsystemd:
 	dh_installsystemd -padaptation-tangorpro-configs --name=android-services android-services.service --no-start
